@@ -4,11 +4,11 @@ A simple lib to truncate text with ellipsis
 
 # Installation
 
-`npm install truncate-text --save`
+`npm install truncate-strings --save`
 Then...
 
 ```
-import { truncateText } from "truncate-text";
+import { truncateText } from "truncate-strings";
 
 {truncateText("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", {word: true, limit: 10, after: true} )}
 
