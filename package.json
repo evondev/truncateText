@@ -1,0 +1,26 @@
+{
+  "name": "truncatetexts",
+  "version": "1.0.0",
+  "description": "Simple lib to truncate text with ellipsis",
+  "main": "truncateText.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evondev/truncateText.git"
+  },
+  "keywords": [
+    "truncate",
+    "truncate",
+    "text",
+    "truncate",
+    "string"
+  ],
+  "author": "evondev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evondev/truncateText/issues"
+  },
+  "homepage": "https://github.com/evondev/truncateText#readme"
+}
