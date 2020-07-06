@@ -1,6 +1,6 @@
 {
-  "name": "truncatetexts",
-  "version": "1.0.0",
+  "name": "truncate-text",
+  "version": "1.0.2",
   "description": "Simple lib to truncate text with ellipsis",
   "main": "truncateText.js",
   "scripts": {
