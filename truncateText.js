@@ -2,23 +2,14 @@ function truncateText(
   content = "...",
   { word = false, limit = 160, after = true }
 ) {
-  let newContent;
+  if (!content) return "";
 
-  if (content && content.length) {
-    if (word === true) {
-      newContent = content.split(" ");
-      if (newContent.length <= limit) return content;
-      newContent = newContent.slice(0, limit);
-      newContent = newContent.join(" ") + (after ? "..." : "");
-    } else {
-      newContent = content.split("");
-      if (newContent.length <= limit) return content;
-      newContent = newContent.slice(0, limit);
-      newContent = newContent.join("") + (after ? "..." : "");
-    }
-  }
+  let newContent = null;
+  let spacer = word ? " " : "";
+  newContent = content.split(spacer);
+  if (newContent.length <= limit) return content;
 
-  return newContent;
+  return newContent.slice(0, limit).join(spacer) + (after ? "..." : "");
 }
 
 module.exports.truncateText = truncateText;
